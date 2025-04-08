@@ -1,6 +1,17 @@
-# Welcome to your Expo app 👋
+# Welcome to Expo WebView App which shows Dish in AR
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is an [Expo] project built using [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+
+The goal of this app is to **showcase a dish in AR or 3D** using a website embedded inside the app via `WebView`. The AR/3D experience is rendered directly within the app without opening an external browser.
+
+## 🚀 Features
+
+- ✅ WebView integration to load a live website
+- ✅ Seamless navigation inside the app
+- ✅ Expo Go support (no build required)
+- ✅ Supports Google login & interactions inside the web page
+
+
 
 ## Get started
 
@@ -23,7 +34,12 @@ In the output, you'll find options to open the app in a
 - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
 - [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Step 1: Install Expo Go
+
+- [📱 Android - Play Store](https://play.google.com/store/apps/details?id=host.exp.exponent)
+- [📱 iOS - App Store](https://apps.apple.com/app/expo-go/id982107779)
+
+### Step 3: Scan he qr code which is showing in termial and able to see Expo app in Phone.
 
 ## Get a fresh project
 
@@ -32,17 +48,6 @@ When you're ready, run:
 ```bash
 npm run reset-project
 ```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
 
 Join our community of developers creating universal apps.
 
